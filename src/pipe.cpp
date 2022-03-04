@@ -1,4 +1,4 @@
-#include "includes.h"
+#include "../include/includes.h"
 
 // Parses the pipes, and tells how many | are there in the input
 int pipeParser(char *str)
