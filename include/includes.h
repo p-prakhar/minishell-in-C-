@@ -15,19 +15,19 @@ using namespace std;
 #define MAX_BUF 200
 
 // Array which will save the last 10 commands
-char pastCmd[HISTORY_LENGTH][MAX_LINE];
+extern char pastCmd[HISTORY_LENGTH][MAX_LINE];
 
 //The index or serial of the current command
-int cmdCount = 0;
+extern int cmdCount;
 
 //To store the name of the user of the program
-char *user;
+extern char *user;
 
 //To store the beginning directory of the program or the directory in which this source file is present
-char path[MAX_BUF];
+extern char path[MAX_BUF];
 
 //To store the arguments parsed after redirection operators
-char **redirParsedArgs;
+extern char **redirParsedArgs;
 
 void clear();
 void initShell();

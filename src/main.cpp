@@ -1,5 +1,21 @@
 #include "../include/includes.h"
 
+// Array which will save the last 10 commands
+char pastCmd[HISTORY_LENGTH][MAX_LINE];
+
+//The index or serial of the current command
+int cmdCount = 0;
+
+//To store the name of the user of the program
+char *user;
+
+//To store the beginning directory of the program or the directory in which this source file is present
+char path[MAX_BUF];
+
+//To store the arguments parsed after redirection operators
+char **redirParsedArgs;
+
+
 /////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////
 /////////////////// Main Function Starts here ///////////////////////////////////
