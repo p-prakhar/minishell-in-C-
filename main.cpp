@@ -1,20 +1,9 @@
-// Including necessary headers
-#include <sys/stat.h>
-#include <bits/stdc++.h>
-#include <unistd.h>
-#include <sys/wait.h>
-#include <fcntl.h>
-#include <fstream>
+#include "includes.h"
 
 
-using namespace std;
 
-// defining some useful constants
-#define MAX_LINE 100      // The maximum length command
-#define HISTORY_LENGTH 20 // The maximum amount of history enteries stored
-#ifndef MAX_BUF
-#define MAX_BUF 200
-#endif
+
+
 
 // Array which will save the last 10 commands
 char pastCmd[HISTORY_LENGTH][MAX_LINE];
