@@ -86,6 +86,10 @@ $ sudo ./install.sh
 ```
 After installing from install.sh file, restart the terminal. Now, type the command `prakhar` in the terminal to run the `minishell`.
 
+```bash
+$ prakhar
+```
+
 [Back To The Top](#minishell)
 
 ---
@@ -129,6 +133,5 @@ After installing from install.sh file, restart the terminal. Now, type the comma
 ## License
 
 - MIT License (MIT) - [MIT License](LICENSE)
-- 
     [Back To The Top](#minishell)
 ---
