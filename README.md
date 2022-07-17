@@ -132,6 +132,7 @@ $ prakhar
 
 ## License
 
-- MIT License (MIT) - [MIT License](LICENSE)
+- GPLv3 - Read [here](LICENSE)
+
     [Back To The Top](#minishell)
 ---
