@@ -75,7 +75,7 @@ void exitShell()
     clear();
     printf("\033[0;32m");
 
-    printf("This mini shell was created by Prakhar Pandey\nRoll Number 200101081");
+    printf("This mini shell was created by Prakhar Pandey\nCS undergrad @ IIT Guwahati");
     printf("\nExiting");
     fflush(stdout);
     sleep(1);
